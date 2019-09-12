@@ -1,0 +1,115 @@
+header {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #ffff;
+}
+
+header .promo-header {
+  background-color: #000000;
+  color: #ffff;
+  font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 10px;
+}
+
+header .icon-row {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header .site-logo {
+  width: 8rem;
+  height: auto;
+}
+
+header .nav a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: #3d4246;
+}
+
+header .nav a:hover {
+  color: grey;
+}
+
+.header-icon {
+  width: 1.5em;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.left-icon {
+  padding-right: 20px;
+}
+
+body {
+  background: #ffff;
+  color: #3d4246;
+}
+
+.showcase {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.showcase .showcase-image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.showcase .showcase-button {
+  position: relative;
+  top: -70px;
+  left: 250px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: #000000;
+  color: #ffff;
+  font-family: 'Lato', sans-serif;
+  padding: 8px 8px 8px 8px;
+}
+
+.showcase .showcase-button h5 {
+  margin: 0;
+  padding: 3px 3px 3px 3px;
+  border: white 2px solid;
+}
+
+.clothing-link-row {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.clothing-link-row .showcase-mini {
+  width: 280px;
+  height: auto;
+  margin: 8px 8px 8px 8px;
+}
+
+.clothing-link-row .showcase-mini:hover {
+  cursor: pointer;
+}
+
+.shirt-style {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin-bottom: 10px;
+  width: 100px;
+  height: auto;
+  background: #b8b5b5;
+  padding: 5px;
+}
+
+.heading {
+  margin: 0 auto;
+  color: #000000;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=style.css.map */

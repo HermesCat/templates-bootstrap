@@ -1,0 +1,46 @@
+header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: $sharp-white;
+    .promo-header {
+        background-color: $deep-black;
+        color: $sharp-white;
+        font-family: 'Titillium Web', sans-serif;
+        margin-bottom: 10px;
+    }
+    .icon-row {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .site-logo {
+        width: 8rem;
+        height: auto;
+    }
+    .nav {
+        a {
+            font-family: 'Lato', sans-serif;
+            text-decoration: none;
+            color: $main-text;
+        }
+        a:hover {
+            color: grey;
+        }
+    }
+}
+
+
+.header-icon {
+    width: 1.5em; 
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.left-icon {
+    padding-right: 20px;
+}
+
+.right-icon {
+   
+}

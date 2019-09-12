@@ -1,0 +1,69 @@
+@import "./colors";
+@import "./header";
+
+
+body {
+    background: $sharp-white;
+    color: $main-text;
+}
+
+.showcase {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    .showcase-image {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .showcase-button {
+        position: relative;
+        top: -70px;
+        left: 250px;
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        overflow: visible;
+        background: $deep-black;
+        color: $sharp-white;
+        font-family: 'Lato', sans-serif;
+        padding: 8px 8px 8px 8px;
+        h5 {
+            margin: 0;
+            padding: 3px 3px 3px 3px;
+            border: white 2px solid;
+        }
+    }
+}
+
+.clothing-link-row{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    .showcase-mini {
+        width: 280px;
+        height: auto;
+        margin: 8px 8px 8px 8px;
+    }
+    .showcase-mini:hover {
+        cursor: pointer;
+    }
+}
+
+.shirt-style {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    margin-bottom: 10px;
+    width: 100px;
+    height: auto;
+    background: rgb(184, 181, 181);
+    padding: 5px;
+}
+
+
+
+.heading {
+    margin: 0 auto;
+    color: $deep-black;
+    margin-bottom: 5px;
+}
